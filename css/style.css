@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    background-color: bisque;
+    color: brown;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+h2{
+
+    color: blue;
+}
+
+h3{
+
+    color: greenyellow;
+    text-align: center;
+}
+
+b{
+
+    color: red;
+
+}
+
+.red{
+
+color: plum;
+}
+
+p{
+
+color: black;
+}
+
+li{
+    margin-left: 7px;
+}
+
+.extra{
+
+    color: gray;
+}
