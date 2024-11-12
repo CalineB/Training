@@ -4,6 +4,16 @@ body{
 
 h1, h2, h3{
     text-align: center;
+    font-size: xx-large;
+}
+
+img{
+    height: 25rem;
+    width: 30rem;
+    border-radius: 100px 0px 100px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div{
@@ -19,7 +29,7 @@ h1{
 
 h2{
 
-    color: blue;
+    color: red;
 }
 
 h3{
@@ -39,16 +49,28 @@ b{
 color: plum;
 }
 
-p{
+.blue{
+    color: royalblue;
+}
 
+p{
 color: black;
+font-size: 30px;
 }
 
 li{
+    font-size: 30px;
     margin-left: 7px;
 }
 
 .extra{
 
     color: gray;
+}
+
+.astuce{
+    color: gray;
+    text-align: center;
+    background-color: coral;
+    font-size: 25px;
 }

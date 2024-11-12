@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+}
+
+header{
+    display: block;
+}
+
+h1, h3, h4{
+    font-family: "Oswald", sans-serif;
+}
+
+.logo{
+    height: 20rem;
+    width: 20rem;
+}
+
+
+.intro{
+    display: block;
+    border-top: solid 3px brown;
+    border-bottom: solid 3px brown;
+    padding: 5px;
+}
+
+span{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+
+section{
+    background-color: lightgray;
+    padding: 3px 7px 3px 7px;
+    margin-top: 15px;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo2{
+    height: 90px;
+    width: 90px;
+}
+
+.red{
+    color: brown ;
+}
+
+.underline{
+    border-bottom: solid 3px brown;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li.red a{
+    color: brown;
+}
+
+li{
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    background-color: lightgray;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li:hover{
+    background-color: lightblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.img{
+    margin: 2rem;
+    padding: 1rem;
+    border: solid 1px gray;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallimg{
+    height: 7rem;
+    width: 7rem;
+}
+
+b.red{
+    font-weight: 900;
+    font-size: large;
+}
+
+footer{
+    background-color: lightblue;
+    padding: 3rem;
+}
