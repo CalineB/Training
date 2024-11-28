@@ -1,2 +1,2 @@
 # SAP
-Web3 project
+This app displays text fetch from the database with postgresql. 
