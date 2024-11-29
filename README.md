@@ -1,16 +1,16 @@
 This project is not done yet, but you can test its main functionnalities. 
 
-# 1 - Clone the project
-# 2 - Download Metamask and Ganach
-## Create a new workspace in Ganach, 
-## Use Ganach RPC to connect to Metamask local host
-## Use the address indexted [1] private key to export Ganach account to Metamask testnet
+### 1 - Clone the project
+### 2 - Download Metamask and Ganach
+ Create a new workspace in Ganach,  
+ Use Ganach RPC to connect to Metamask local host  
+ Use the address indexted [1] private key to export Ganach account to Metamask testnet  
 
-## 3 - npm install
-## 4 - npm install truffle -g
-## 5 - truffle compile (in your terminal)
-## 6 - truffle migrate (or "truffle migrate --reset" if needed) (in your terminal)
-## 7 - Use "truffle test" (in your terminal to run Moch and Chai testing suite)
+### 3 - npm install
+### 4 - npm install truffle -g
+### 5 - truffle compile (in your terminal)
+### 6 - truffle migrate (or "truffle migrate --reset" if needed) (in your terminal)
+### 7 - Use "truffle test" (in your terminal to run Moch and Chai testing suite)
 
 
  _ You can try "truffle console" (in your terminal), to test the development with :
