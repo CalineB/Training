@@ -14,25 +14,25 @@ This project is not done yet, but you can test its main functionnalities.
 
 
  _ You can try "truffle console" (in your terminal), to test the development with :
- "tether = await Tether.deployed()"
- then
- "tether"
- also ;
- "tether.name()"
- or :
- "tether.address"
- and so on..._
+ "tether = await Tether.deployed()"  
+ then  
+ "tether"  
+ also :  
+ "tether.name()"  
+ or :  
+ "tether.address"  
+ and so on..._  
 
- _You can try still in the truffle console :
- "rwd = await RWD.deployed()"
- "rwd.address"
- "rwd.name()"
+ _You can try still in the truffle console :  
+ "rwd = await RWD.deployed()"  
+ "rwd.address"  
+ "rwd.name()"  
 
-_You can fin the list ouf your Ganach workspace with :
- "accounts = await web3.eth.getAccounts()"
+_You can fin the list ouf your Ganach workspace with :  
+ "accounts = await web3.eth.getAccounts()"  
 
-After setting your tether account with "tether = await Tether.deployed()" if you want to verify any account balance you can as follows :
-"balance = await tether.balanceOf(accounts[1])" (for the balance of the second wallet).
-"balance.toString"
-"convertBalance = web3.utils.fromWei(balance)"
-(the app is programmed to send only to the second account, the first balance being the bank account).
+After setting your tether account with "tether = await Tether.deployed()" if you want to verify any account balance you can as follows :   
+"balance = await tether.balanceOf(accounts[1])" (for the balance of the second wallet). 
+"balance.toString"  
+"convertBalance = web3.utils.fromWei(balance)"  
+(the app is programmed to send only to the second account, the first balance being the bank account).  
