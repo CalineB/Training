@@ -3,9 +3,9 @@ This project is not done yet, but you can test its main functionnalities.
 Clone the project with :   
 
 git clone -b DeFi https://github.com/CalineB/Training.git  
-
-
-
+' npm install react-scripts '  
+' npm i '  
+  
 ### 1 - Clone the project
 ### 2 - Download Metamask and Ganach
  Create a new workspace in Ganach,  
@@ -19,7 +19,7 @@ git clone -b DeFi https://github.com/CalineB/Training.git
 ### 7 - Use "truffle test" (in your terminal to run Moch and Chai testing suite)
 
 
-Run the app with ' npx nodemon '  
+ run the app with ' npx nodemon '
 
 
  _ You can try "truffle console" (in your terminal), to test the development with :
