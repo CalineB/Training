@@ -28,7 +28,8 @@ As students of the great O'clock School of Computer Science, we have the honor a
 
 # Run app  
 
-Add .env file to ""/project-13-quizs-front" according to the /.env.example  
+gitinore is all in comment for easier test. You can just follow those steps to run the app : 
+
   Back :  
   'npm i'  
   - Create database "psql -U postgres" or with our username.  
