@@ -13,6 +13,9 @@ This project is not done yet, but you can test its main functionnalities.
 ### 7 - Use "truffle test" (in your terminal to run Moch and Chai testing suite)
 
 
+Run the app with ' npx nodemon '  
+
+
  _ You can try "truffle console" (in your terminal), to test the development with :
  "tether = await Tether.deployed()"  
  then  
