@@ -6,69 +6,69 @@ As students of the great O'clock School of Computer Science, we have the honor a
 
 ## App features
 
-* Access to the list of quizzes,
-* Answer the questions of the quizzes,
-* Get my score at the end of each game,
-* Create a user area,
-* Access the history of my score(s) and played game(s),
-* Create quizzes,
-* Propose quizzes to put online,
-* Access the ranking of the best players
+* Access to the list of quizzes,  
+* Answer the questions of the quizzes,  
+* Get my score at the end of each game,  
+* Create a user area,  
+* Access the history of my score(s) and played game(s),  
+* Create quizzes,  
+* Propose quizzes to put online,  
+* Access the ranking of the best players  
 
 ## Used technologies
 
-* PostgreSQL,
-* NodeJs,
-* ExpressJs
-* Sequelize,
-* SQL,
-* Sqitch,
-* Swagger
+* PostgreSQL,  
+* NodeJs,  
+* ExpressJs,  
+* Sequelize,  
+* SQL,  
+* Sqitch,  
+* Swagger  
 
 
-## Run app
+# Run app  
 
-Add .env file to ""/project-13-quizs-front" according to the /.env.example
-  Back :
-  'npm i'
-  - Create database "psql -U postgres" or with our username.
-  - Update .env informations if needed to access to your database.
-  - connect to the SQL file to your database : 'psql -U postgres -d work -f data/quiz_seeding.sql' (replace 'postgres' by your database username and 'work' by your database name if differen)
-  - 'sqitch deploy'
-  - 'npm run dev', from roots.
+Add .env file to ""/project-13-quizs-front" according to the /.env.example  
+  Back :  
+  'npm i'  
+  - Create database "psql -U postgres" or with our username.  
+  - Update .env informations if needed to access to your database.  
+  - connect to the SQL file to your database : 'psql -U postgres -d work -f data/quiz_seeding.sql' (replace 'postgres' by your database username and 'work' by your database name if differen)  
+  - 'sqitch deploy'  
+  - 'npm run dev', from roots.  
  
-  Front : 
-  'npm run build'
-  'npm i'
-  'npm start index.js' from "/project-13-quizs-front".
+  Front :  
+  'npm i'  
+  'npm run build'  
+  'npm start index.js' from "/project-13-quizs-front".  
 
 
 ## Supported browser
 
-* Google Chrome
-* Mozilla Firefox
+* Google Chrome  
+* Mozilla Firefox  
 
 ## DevDependencies
 
-* eslint,
-* eslint-config-airbnb-base
-* eslint-plugin-import
-* nodemon
+* eslint,  
+* eslint-config-airbnb-base  
+* eslint-plugin-import  
+* nodemon  
 
 ## Required installs and instructions
 
-You can install the modules with "npm i -S
+You can install the modules with "npm i -S  
 
-* dotenv
-* express
-* pg
-* jsonwebtoken
-* debug
-* email-validator
-* cors
-* express-session
-* swagger-jsdoc
-* swagger-ui-express"
+* dotenv  
+* express  
+* pg  
+* jsonwebtoken  
+* debug  
+* email-validator  
+* cors  
+* express-session  
+* swagger-jsdoc  
+* swagger-ui-express"  
 
 ## Code tests
 
@@ -76,24 +76,26 @@ You can install the modules with "npm i -S
 
 ## Contributing
 
-1. Product owner : Ulas ONDER
-2. Backend lead developer : Gérald VENTADOUR
-3. Frontend lead developer : Léo DURILLON
-4. Scrum master : Caline BRUNO
+1. Product owner : Ulas ONDER  
+2. Backend lead developer : Gérald VENTADOUR  
+3. Frontend lead developer : Léo DURILLON  
+4. Scrum master : Caline BRUNO  
 5. Technical&Git referent : Gérald VENTADOUR
+6. Dev frontend : Ulas & Léo
+7. Dev backend : Caline & Gérald
 
 ## Sources acknowledgements
 
-* Kourou.oclock.io
-* Sqitch.org
-* Eslint
-* Atlassian.com
-* gitignore.io
+* Kourou.oclock.io  
+* Sqitch.org  
+* Eslint  
+* Atlassian.com  
+* gitignore.io  
 
 ## Direction for future development
 
-* Background music
-* Register your started quiz to finish later
+* Background music  
+* Register your started quiz to finish later  
 * Create avatar for profil picture
 * Create quiz journey to gain point and update your avatar
 * Searchbar to search for quizzes by keywords
