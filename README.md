@@ -1,5 +1,11 @@
 This project is not done yet, but you can test its main functionnalities. 
 
+Clone the project with :   
+
+git clone -b DeFi https://github.com/CalineB/Training.git  
+
+
+
 ### 1 - Clone the project
 ### 2 - Download Metamask and Ganach
  Create a new workspace in Ganach,  
